@@ -1,16 +1,20 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	List
 %define		pnam	Utils
 Summary:	List::Utils - additional list utilities
 Summary(pl):	List::Utils - dodatkowe narzêdzia do obs³ugi list
 Name:		perl-List-Utils
-Version:	0.01
-Release:	2
+Version:	0.05
+Release:	1
 License:	?
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	582b116de23aa8730e536a4b58b081d6
-BuildRequires:	perl-devel >= 5.6.1
+# Source0-md5:	08ac411e212151e5d80efbc41f4f03fe
+BuildRequires:	perl-devel >= 5.8
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -32,12 +36,14 @@ zaimplementowane w Perlu, ale nie s±? Có¿, oto one.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
-#%%{__make} test
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT

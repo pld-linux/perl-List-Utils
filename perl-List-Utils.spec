@@ -8,12 +8,12 @@
 Summary:	List::Utils - additional list utilities
 Summary(pl):	List::Utils - dodatkowe narzêdzia do obs³ugi list
 Name:		perl-List-Utils
-Version:	0.05
+Version:	0.06
 Release:	1
 License:	?
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	08ac411e212151e5d80efbc41f4f03fe
+# Source0-md5:	69b3392ef0d5933043655eb55bc7b52d
 BuildRequires:	perl-devel >= 5.8
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch

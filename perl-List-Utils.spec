@@ -4,7 +4,7 @@
 Summary:	List::Utils - additional list utilities
 Summary(pl):	List::Utils - dodatkowe narzêdzia do obs³ugi list
 Name:		perl-List-Utils
-Version:	1.0701
+Version:	0.01
 Release:	1
 License:	?
 Group:		Development/Languages/Perl

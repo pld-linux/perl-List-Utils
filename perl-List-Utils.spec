@@ -28,7 +28,7 @@ zaimplementowane w Perlu, ale nie s±? Có¿, oto one.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 #%{__make} test
 

@@ -10,7 +10,7 @@ Summary(pl):	List::Utils - dodatkowe narzêdzia do obs³ugi list
 Name:		perl-List-Utils
 Version:	0.06
 Release:	1
-License:	?
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	69b3392ef0d5933043655eb55bc7b52d

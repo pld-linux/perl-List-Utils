@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	List
-%define		pnam	Utils
+%define	pdir	List
+%define	pnam	Utils
 Summary:	List::Utils - additional list utilities
 Summary(pl):	List::Utils - dodatkowe narzêdzia do obs³ugi list
 Name:		perl-List-Utils

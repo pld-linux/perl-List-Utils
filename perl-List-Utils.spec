@@ -30,7 +30,7 @@ zaimplementowane w Perlu, ale nie s±? Có¿, oto one.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 #%%{__make} test
 

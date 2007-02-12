@@ -6,7 +6,7 @@
 %define		pdir	List
 %define		pnam	Utils
 Summary:	List::Utils - additional list utilities
-Summary(pl):	List::Utils - dodatkowe narzêdzia do obs³ugi list
+Summary(pl.UTF-8):   List::Utils - dodatkowe narzÄ™dzia do obsÅ‚ugi list
 Name:		perl-List-Utils
 Version:	0.06
 Release:	2
@@ -24,10 +24,10 @@ You know the things that Graham said could be implemented in Perl in
 the List::Util (part of Scalar::List::Util release) docs but didn't?
 Well, here they are.
 
-%description -l pl
-Kojarzysz rzeczy, o których Graham napisa³ w dokumentacji od
-List::Util (czê¶æ pakietu Scalar::List::Util), ¿e mog³yby byæ
-zaimplementowane w Perlu, ale nie s±? Có¿, oto one.
+%description -l pl.UTF-8
+Kojarzysz rzeczy, o ktÃ³rych Graham napisaÅ‚ w dokumentacji od
+List::Util (czÄ™Å›Ä‡ pakietu Scalar::List::Util), Å¼e mogÅ‚yby byÄ‡
+zaimplementowane w Perlu, ale nie sÄ…? CÃ³Å¼, oto one.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

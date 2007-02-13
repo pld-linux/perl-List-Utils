@@ -6,7 +6,7 @@
 %define		pdir	List
 %define		pnam	Utils
 Summary:	List::Utils - additional list utilities
-Summary(pl.UTF-8):   List::Utils - dodatkowe narzędzia do obsługi list
+Summary(pl.UTF-8):	List::Utils - dodatkowe narzędzia do obsługi list
 Name:		perl-List-Utils
 Version:	0.06
 Release:	2

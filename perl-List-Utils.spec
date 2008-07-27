@@ -9,7 +9,7 @@ Summary:	List::Utils - additional list utilities
 Summary(pl.UTF-8):	List::Utils - dodatkowe narzędzia do obsługi list
 Name:		perl-List-Utils
 Version:	0.06
-Release:	2
+Release:	3
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

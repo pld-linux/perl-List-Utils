@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	List
 %define		pnam	Utils
+%include	/usr/lib/rpm/macros.perl
 Summary:	List::Utils - additional list utilities
 Summary(pl.UTF-8):	List::Utils - dodatkowe narzędzia do obsługi list
 Name:		perl-List-Utils
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	69b3392ef0d5933043655eb55bc7b52d
+URL:		http://search.cpan.org/dist/List-Utils/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
